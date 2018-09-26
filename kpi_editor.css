@@ -2600,6 +2600,17 @@ span.bonus-score {
     display: table-cell;
 }
 
+#main-content .bsc-category-content .kpi-delay{
+    background-color: #ababab!important;
+}
+#main-content .bsc-category-content .text-show-kpi-delay{
+    color: #d9534f;
+    margin-top:-25px;
+    font-size: 12px;
+    margin-left: 75px;
+    float:left;
+}
+
 .list-goals {
     margin-top: 30px;
     margin-left: 15px;
