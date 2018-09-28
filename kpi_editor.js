@@ -452,9 +452,7 @@ var absolute_result_cpn = Vue.extend({
                     show: {
                         event: 'click'
                     },
-                    hide: {
-                        event: 'click'
-                    }
+                    hide: 'unfocus'
                 });
           })
         },
