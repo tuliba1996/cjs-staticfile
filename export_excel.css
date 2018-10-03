@@ -641,4 +641,17 @@ div[id^='modalCreateFilter'] .modal-body .left {
 div[id^='modalCreateFilter'] .left{
     padding-top: 0;
 }
+.vue-easy-pie-chart {
+  position: relative;
+  text-align: center;
+}
+.vue-easy-pie-chart .inner-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: block;
+}
 /*[END]------------performance/templates/report/report-score-excel.html------------[END]*/
