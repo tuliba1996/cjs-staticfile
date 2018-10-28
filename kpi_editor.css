@@ -2011,6 +2011,7 @@ span.comment-sign.toggle-auto:hover {
 
 .table-per-result.table-bordered tr td{
     color: #666666;
+    vertical-align: middle;
 }
 
 .table-per-com-result .table-striped > tbody > tr:nth-of-type(odd), .table-per-result.table-bordered tr:last-child td {

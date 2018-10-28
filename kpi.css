@@ -3352,3 +3352,47 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 #quarter_result .q-resutl-container .q-resutl-label{
     font-size: 12px;
 }
+
+
+#company-vision-mission-wrapper .table-per-result .score-month td{
+    color: #666666!important;
+    font-weight: normal!important;
+    font-size: 12px!important;
+    background-color: #ffffff!important;
+}
+
+
+#company-vision-mission-wrapper .table-bordered{
+    font-size: 12px;
+    height: 161px;
+}
+
+#company-vision-mission-wrapper .table-per-result .score-month .score-month-label {
+    font-weight: bold!important;
+}
+
+#quarter_result .q-resutl-container .average-score-container{
+    margin-top: 15px;
+}
+
+#quarter_result .q-resutl-container .detail-score-help{
+    font-size: 12px!important;
+}
+
+#row-internal-score-help  th{
+    background-color: #fdf1f1;
+    color: #f27577;
+    text-transform: uppercase;
+    border: none!important;
+}
+
+#row-learninggrowth-score-help  th{
+    background-color: #edf5e7;
+    color: #53a413;
+    text-transform: uppercase;
+    border: none!important;
+}
+
+#kpiscore-help .sum-score-help .total-score{
+    font-size: 18px;
+}
