@@ -54,6 +54,9 @@ body {
     height: 40px;
 }
 
+.pd-top-15{
+    padding-top: 15px;
+}
 .report-head-box .right {
     float: right;
     margin: 0 5px;
@@ -149,6 +152,7 @@ body {
 #emp-score-page .view_page .el-tabs__nav .el-tabs__item {
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
 }
 
 #emp-score-page .view_page .view_kpis_delay, .view_page .month_report_statistic {
@@ -166,10 +170,11 @@ body {
 }
 
 .reload_data label {
-    color: #337ab7;
+    color: #337ab7!important;
     font-size: 14px;
     font-weight: normal;
     line-height: 30px;
+    padding-right: 20px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -389,6 +394,7 @@ div[id^='modalCreateFilter'] .el-row {
 
 .info_user {
     line-height: 15px;
+    padding-left: 5px;
 }
 
 .el-form-item__label {
@@ -641,4 +647,50 @@ div[id^='modalCreateFilter'] .modal-body .left {
 div[id^='modalCreateFilter'] .left{
     padding-top: 0;
 }
+.vue-easy-pie-chart {
+  position: relative;
+  text-align: center;
+}
+.vue-easy-pie-chart .inner-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: block;
+}
+
+.el-table_1_column_1 .cell{
+    margin-left: 10px;
+}
+
+.hover-icon-bin .icon-delete {
+    display: none;
+}
+
+.hover-icon-bin:hover .icon-delete{
+    display: block;
+}
+
+.el-table__row .view-kpi-btn{
+    display: none;
+}
+
+.hover-row .view-kpi-btn{
+    display: block;
+}
+.el-table_1_column_13  .cell a:hover{
+    text-decoration: none!important;
+}
+
+.el-scrollbar .el-autocomplete-suggestion__wrap ul li {
+    padding: 0px 10px!important;
+}
+
+.el-scrollbar .el-autocomplete-suggestion__wrap .row-avatar .avatar{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
 /*[END]------------performance/templates/report/report-score-excel.html------------[END]*/
